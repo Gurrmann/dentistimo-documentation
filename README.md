@@ -15,7 +15,7 @@ We are making a web application that will make it easy for the user to book an a
 ## Links
 Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 
-##Software Requirement Specification (SRS):
+## Software Requirement Specification (SRS):
 
 ## Functional Requirements
 1. A user shall be able to book a dentist appointment.
