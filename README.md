@@ -1,4 +1,3 @@
-
 ### Team 1
 Simon Engström,
 Emil Gustafsson,
@@ -9,6 +8,7 @@ Peiran Wei,
 Muradu Bedru
 
 ### Purpose
+
 ## Task description
 We are making a web application that will make it easy for the user to book an appointment with a dentist.
 
@@ -16,6 +16,7 @@ We are making a web application that will make it easy for the user to book an a
 Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 
 ##Software Requirement Specification (SRS):
+
 ## Functional Requirements
 1. A user shall be able to book a dentist appointment.
   1.1. The user shall be able to view a selected date and it’s available time slots.
