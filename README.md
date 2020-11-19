@@ -16,32 +16,33 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 ## Software Requirement Specification (SRS):
 
 ## Functional Requirements
-1. A user shall be able to book a dentist appointment.
-  1.1. The user shall be able to view a selected date and it’s available time slots.
-  1.2. The user shall be prompted to fill in a form after selecting an available time slot.
+1. A user shall be able to book a dentist appointment. <br>
+  1.1. The user shall be able to view a selected date and it’s available time slots. <br>
+  1.2. The user shall be prompted to fill in a form after selecting an available time slot. <br>
   1.3. When an appointment is successfully booked a confirmation message is returned by the system.
-  1.4. When an appointment fails to book a rejection message is returned by the system.
-  1.5. When a form has been completed, the user shall get a prompt booking successfully. 
-2. The system shall display dentistries on a map of Gothenburg.
-  2.1. The user shall be able to navigate the map by dragging and zooming.
-  2.2. The system shall display all dentistries on the map
-  2.3. The system shall allow users to select a dentistry on the map.
+  <br>
+  1.4. When an appointment fails to book a rejection message is returned by the system. <br>
+  1.5. When a form has been completed, the user shall get a prompt booking successfully.
+2. The system shall display dentistries on a map of Gothenburg. <br>
+  2.1. The user shall be able to navigate the map by dragging and zooming. <br>
+  2.2. The system shall display all dentistries on the map. <br>
+  2.3. The system shall allow users to select a dentistry on the map. <br>
   2.4. When a user selects a dentistry on the map, information on the dentistry will show up.
 
 ### Non-Functional Requirements
-1. The interface shall be accessible and easy to understand
-1.1. Most of users understand the UI within 1 minute
-2. The system does not crash. 
+1. The interface shall be accessible and easy to understand <br>
+  1.1. Most of users understand the UI within 1 minute
+2. The system does not crash.
 
 ### Software Architecture Document (SAD):
 
 ## The main forces that drive our system are:
 
-## Legal 
+## Legal
 Should the user consent to the data collection, the app will only use the data within this system. No data will be collected without consent. SSN, name and contact info collected from users are highly sensitive and GDPR must be obeyed. With client/server architecture, all the required data is concentrated in the server,  so it is easy to protect the data and provide authorisation, thereby fulfilling the legal driving force.
 
 ## Availability
-This system is being developed because there was found to be a need for a system that let users quickly and easily see available dentistries in one place. This makes availability a force that drives this system. 
+This system is being developed because there was found to be a need for a system that let users quickly and easily see available dentistries in one place. This makes availability a force that drives this system.
 
 ## Reliability
 The dentistimo system should be highly stable since the quantity of both dentist and patient is huge. Pipe and Filter architecture filter the inappropriate data and prevent the breakdown because of an error from a subsystem.
@@ -67,14 +68,14 @@ We will use the JS framework react to create the user interface
 
 ### Program Management Report (PMR):
 Our team schedule is as follows as of 2020-11-06:
-Stand up meeting: every Monday 
-Weekly Checkpoint meetings Wednesday 
-Sum up meeting: every Friday 
+Stand up meeting: every Monday
+Weekly Checkpoint meetings Wednesday
+Sum up meeting: every Friday
 
 Our schedule as of 2020-11-19:
-Stand up meeting: every Monday 
+Stand up meeting: every Monday
 Weekly Checkpoint meetings Thursday
-Sum up meeting: every Friday 
+Sum up meeting: every Friday
 Meeting Saturday
 Meeting Sunday
 
