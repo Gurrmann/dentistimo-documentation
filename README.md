@@ -19,8 +19,7 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 1. A user shall be able to book a dentist appointment. <br>
   1.1. The user shall be able to view a selected date and it’s available time slots. <br>
   1.2. The user shall be prompted to fill in a form after selecting an available time slot. <br>
-  1.3. When an appointment is successfully booked a confirmation message is returned by the system.
-  <br>
+  1.3. When an appointment is successfully booked a confirmation message is returned by the system. <br>
   1.4. When an appointment fails to book a rejection message is returned by the system. <br>
   1.5. When a form has been completed, the user shall get a prompt booking successfully.
 2. The system shall display dentistries on a map of Gothenburg. <br>
