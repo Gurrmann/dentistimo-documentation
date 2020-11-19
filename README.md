@@ -61,8 +61,13 @@ We will use the JS framework react to create the user interface
  </details>
 
 <details>
-<summary> Functional decomposition diagram </summary>
+<summary> Functional Decomposition Diagram </summary>
 ![Functional decomposition](./images/diagrams/FunctionalDecomposition.png)
+</details>
+
+<details>
+<summary> Component Diagram </summary>
+![Component Diagram](./images/diagrams/ComponentDiagram)
 </details>
 
 ## Program Management Report (PMR):
