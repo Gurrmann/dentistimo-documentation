@@ -15,7 +15,7 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 
 ## Software Requirement Specification (SRS):
 
-## Functional Requirements
+### Functional Requirements
 1. A user shall be able to book a dentist appointment. <br>
   1.1. The user shall be able to view a selected date and it’s available time slots. <br>
   1.2. The user shall be prompted to fill in a form after selecting an available time slot. <br>
@@ -33,17 +33,17 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
   1.1. Most of users understand the UI within 1 minute
 2. The system does not crash.
 
-### Software Architecture Document (SAD):
+## Software Architecture Document (SAD):
 
-## The main forces that drive our system are:
+### The main forces that drive our system are:
 
-## Legal
+### Legal
 Should the user consent to the data collection, the app will only use the data within this system. No data will be collected without consent. SSN, name and contact info collected from users are highly sensitive and GDPR must be obeyed. With client/server architecture, all the required data is concentrated in the server,  so it is easy to protect the data and provide authorisation, thereby fulfilling the legal driving force.
 
-## Availability
+### Availability
 This system is being developed because there was found to be a need for a system that let users quickly and easily see available dentistries in one place. This makes availability a force that drives this system.
 
-## Reliability
+### Reliability
 The dentistimo system should be highly stable since the quantity of both dentist and patient is huge. Pipe and Filter architecture filter the inappropriate data and prevent the breakdown because of an error from a subsystem.
 The system has a constraint that each component must be able to handle standard errors such as incorrectly formatted data, this means that reliability is a force that must drive our system. The publish and subscribe style is limited in how it guarantees deliveries since it uses different levels of quality of services where the more reliable options cost more bandwidth and therefore lower performance, however we choose to prioritize reliability for this project.
 
@@ -65,7 +65,7 @@ We will use the JS framework react to create the user interface
 ![Functional decomposition](./images/diagrams/FunctionalDecomposition.png)
 </details>
 
-### Program Management Report (PMR):
+## Program Management Report (PMR):
 Our team schedule is as follows as of 2020-11-06:
 Stand up meeting: every Monday
 Weekly Checkpoint meetings Wednesday
@@ -78,4 +78,4 @@ Sum up meeting: every Friday
 Meeting Saturday
 Meeting Sunday
 
-We are managing our project in a scrum-like fascion, with an aim to have incremental releases every week. We will assign a scrum master each week that handles makes the team stays on track.
+We are managing our project in a scrum-like fashion, with an aim to have incremental releases every week. We will assign a scrum master each week that handles makes the team stays on track.
