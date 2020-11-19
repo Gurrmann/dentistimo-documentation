@@ -67,7 +67,7 @@ We will use the JS framework react to create the user interface
 
 <details>
 <summary> Component Diagram </summary>
-![Component Diagram](./images/diagrams/ComponentDiagram)
+![Component Diagram](./images/diagrams/ComponentDiagram.png)
 </details>
 
 ## Program Management Report (PMR):
