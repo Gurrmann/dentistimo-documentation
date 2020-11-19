@@ -7,8 +7,6 @@ Annan Lao,
 Peiran Wei,
 Muradu Bedru
 
-### Purpose
-
 ## Task description
 We are making a web application that will make it easy for the user to book an appointment with a dentist.
 
