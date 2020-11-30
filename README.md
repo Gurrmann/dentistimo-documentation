@@ -66,11 +66,6 @@ We will use the JS framework react to create the user interface
 </details>
 
 <details>
-<summary> Component Diagram </summary>
-![Component Diagram](./images/diagrams/ComponentDiagram.png)
-</details>
-
-<details>
 <summary> UI Mockup </summary>
 ![UI Mockup](./images/diagrams/UImockup.png)
 </details>
