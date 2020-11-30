@@ -75,6 +75,11 @@ We will use the JS framework react to create the user interface
 ![UI Mockup](./images/diagrams/UImockup.png)
 </details>
 
+<details>
+<summary> Architectural Overview </summary>
+![Architectural Overview](./images/diagrams/ArchitecturalOverview.png)
+</details>
+
 ## Program Management Report (PMR):
 Our team schedule is as follows as of 2020-11-06:
 Stand up meeting: every Monday
