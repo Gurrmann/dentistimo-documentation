@@ -37,8 +37,6 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 
 ### The main forces that drive our system are:
 
-### Legal
-Should the user consent to the data collection, the app will only use the data within this system. No data will be collected without consent. SSN, name and contact info collected from users are highly sensitive and GDPR must be obeyed. With client/server architecture, all the required data is concentrated in the server,  so it is easy to protect the data and provide authorisation, thereby fulfilling the legal driving force.
 
 ### Availability
 This system is being developed because there was found to be a need for a system that let users quickly and easily see available dentistries in one place. This makes availability a force that drives this system.
@@ -48,7 +46,7 @@ The dentistimo system should be highly stable since the quantity of both dentist
 The system has a constraint that each component must be able to handle standard errors such as incorrectly formatted data, this means that reliability is a force that must drive our system. The publish and subscribe style is limited in how it guarantees deliveries since it uses different levels of quality of services where the more reliable options cost more bandwidth and therefore lower performance, however we choose to prioritize reliability for this project.
 
 ## Software Architecture
-We intend to use a mix of different software architecture styles. The architecture styles we are planning on using are Client/Server style, Publish Subscribe, as well as Pipe and Filter. Client/Server will be used between our frontend, backend and database, Publish Subscribe is used as the way we communicate between different components, and Pipe and Filter will be used when filtering json data, making sure format is correct.
+We intend to use a mix of different software architecture styles. The architecture styles we are planning on using are Publish Subscribe as well as Pipe and Filter. Publish Subscribe is used as the way we communicate between different components, and Pipe and Filter will be used when JSON validator filtering json data, making sure format is correct.
 
 Our plan is to base the backend of our web application on node.js, and use Mongoose to connect our backend to our mongodb database. The backend will be used to read and write from/to the database, it will then publish the data to the broker, which in turn communicates with the rest of the components who are subscribed.
 We have decided on using the MQTT.js library.
