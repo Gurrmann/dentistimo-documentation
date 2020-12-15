@@ -8,7 +8,7 @@ Peiran Wei,
 Muradu Bedru
 
 ## Task description
-We are making a web application that will make it easy for the user to book an appointment with a dentist.
+We are developing a web application that will provide an easy to understand interface that anyone can use to book an appointment with a dentist.
 
 ## Links
 Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
@@ -42,11 +42,11 @@ Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
 This system is being developed because there was found to be a need for a system that let users quickly and easily see available dentistries in one place. This makes availability a force that drives this system.
 
 ### Reliability
-The dentistimo system should be highly stable since the quantity of both dentist and patient is huge. Pipe and Filter architecture filter the inappropriate data and prevent the breakdown because of an error from a subsystem.
+The dentistimo system should be highly stable since the quantity of both dentist and patient is huge. Pipe and Filter architecture filters the inappropriate data and prevents breakdowns because of errors from subsystems.
 The system has a constraint that each component must be able to handle standard errors such as incorrectly formatted data, this means that reliability is a force that must drive our system. The publish and subscribe style is limited in how it guarantees deliveries since it uses different levels of quality of services where the more reliable options cost more bandwidth and therefore lower performance, however we choose to prioritize reliability for this project.
 
 ## Software Architecture
-We intend to use a mix of different software architecture styles. The architecture styles we are planning on using are Client/Server style, Publish Subscribe, as well as Pipe and Filter. Client/Server will be used between our frontend, backend and database, Publish Subscribe is used as the way we communicate between different components, and Pipe and Filter will be used when filtering json data, making sure format is correct
+We intend to use a mix of different software architecture styles. The architecture styles we are planning on using are Client/Server style, Publish Subscribe, as well as Pipe and Filter. Client/Server will be used in order to receive the latest data from the dentistry repository. Publish Subscribe is used as the way we communicate between components, and Pipe and Filter will be used when filtering json data, making sure format is correct
 
 Our plan is to base the backend of our web application on node.js, and use Mongoose to connect our backend to our mongodb database. The backend will be used to read and write from/to the database, it will then publish the data to the broker, which in turn communicates with the rest of the components who are subscribed.
 We have decided on using the MQTT.js library.
