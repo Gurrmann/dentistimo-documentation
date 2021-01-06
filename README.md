@@ -12,11 +12,13 @@ We are developing a web application that will provide an easy to understand inte
 
 ## Links
 * Project Trello Board: https://trello.com/b/gHtHcznV/dit-355-2020-team-1
-* Request Generator: https://git.chalmers.se/courses/dit355/2020/group-1/requestgenerator
-* Appointment Database: https://git.chalmers.se/courses/dit355/2020/group-1/appointmenthandler
-* Booking Request Validator: https://git.chalmers.se/courses/dit355/2020/group-1/jsonvalidator
-* User Booking UI: https://git.chalmers.se/courses/dit355/2020/group-1/dentistimo-front-end
-* Dentist Database: https://git.chalmers.se/courses/dit355/2020/group-1/dentistimo
+* Request Generator: https://github.com/Gurrmann/Dentistimo-RequestGenerator
+* Appointment Database: https://github.com/Gurrmann/dentistimo-appointmenthandler
+* Booking Request Validator: https://github.com/Gurrmann/dentistimo-jsonvalidator
+* User Booking UI: https://github.com/Gurrmann/dentistimo-frontend
+* Dentist Database: https://github.com/Gurrmann/dentistimo-backend
+
+  (all links are to personal mirrors of the project because of accesss reasons)
 
 ## Software Requirement Specification (SRS):
 
